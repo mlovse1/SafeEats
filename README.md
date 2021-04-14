@@ -1,5 +1,9 @@
 # SafeEats
 
+Update: 04/14/2021
+Updated all pages to .ejs to allow for incorporating the use of express, node, and postgresql. Still need to get full functionality, and do styling. Current pages on in Working in EJS branch.
+
+
 I am working on getting all of the html pages designed and getting the API tied in to do searches. It is still very much a work in progress. I can link to my API in the console with static data, but not with inputed data yet and I still have a lot of styling to do and clean up.
 
 
