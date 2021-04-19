@@ -1,5 +1,8 @@
 # SafeEats
 
+Update: 04/18/2021
+Uploaded unformatted working draft of pages that connect to database correctly. Will finish remaining infrastructure, incorporate Edamam functionality, and work on design this week.
+
 Update: 04/14/2021
 Updated all pages to .ejs to allow for incorporating the use of express, node, and postgresql. Still need to get full functionality, and do styling. Current pages on in Working in EJS branch.
 
