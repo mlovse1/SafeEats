@@ -1,5 +1,10 @@
 # SafeEats
 
+Update: 05/02/2021
+Updated with final app files. Deleted old versions to clean up repository.
+
+
+
 Update: 04/18/2021
 Uploaded unformatted working draft of pages that connect to database correctly. Will finish remaining infrastructure, incorporate Edamam functionality, and work on design this week.
 
