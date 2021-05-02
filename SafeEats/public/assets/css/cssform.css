@@ -1,0 +1,55 @@
+h1 {
+  margin: 0 0 20px;
+  font-weight: 400;
+  color: #1c87c9;
+  padding: 6px;
+}
+p {
+  margin: 0 0 5px;
+}
+
+.reasons img{
+  height:450px;
+  width: 400px;
+  padding: 20px;
+}
+form {
+  padding: 20px;
+  margin: 20px;
+
+  background: #AF4D98;
+  color: #1c87c9;
+}
+input,
+textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #1c87c9;
+  outline: none;
+}
+input::placeholder {
+  color: #666;
+}
+#button {
+  width: 270px;
+  padding: 10px;
+  border: none;
+  background: #1c87c9;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+button:hover {
+  background: #2371a0;
+}
+@media (min-width: 568px) {
+  .main-block {
+    flex-direction: row;
+  }
+  .right-part,
+  form {
+    width: 40%;
+    margin-right: 50%;
+  }
+}

@@ -1,62 +1,83 @@
 <!DOCTYPE html>
-<head>
-<title>Safe Eats</title>
-<html lang="en"></html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="/public/assets/css/main.css" />
-<link rel="stylesheet" type="text/css" href="/public/assets/css/form.css" />
-</head>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--For more responsiveness: jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="/public/assets/css/cssmain.css"/>
+<link rel="stylesheet" type="text/css" href="/public/assets/css/cssform.css"/>
 
-<body>
+    <title>About</title>
+  </head>
+  <body>
     <main>
-        <div class = "header-img">
-          <img src="/public/images/logo.png">
-        </div>
-    </main>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Safe Eats</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/user/index">Home</a>
+      <div class = "header">
+          <img src="/public/images/imglogo.png" class="header-img">
+      </div>
+  </main>
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Safe Eats</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/users/about">About Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/users/login">Log In</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/user/about">About Us</a>
+           <li class="nav-item">
+              <a class="nav-link" href="/users/register">Register</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/user/login">Log In</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/user/search">Search</a>
-            </li>
-            
-          </ul>
-        </div>
-      </nav>
-<p>Paragraph explaining reasoning behind creating the application.</p>
+            <!--
+          <li class="nav-item">
+            <a class="nav-link" href="/users/search">Search</a>
+          </li>
+          -->
+        </ul>
+      </div>
+    </nav>
+    <h1> About SafeEats</h1>
+    <div class="reasons">
+    <img src = "\public\images\reasons.jpg" alt="image of reasons">
+    </div>
+<p>Having children with numerous food allergies was never part of our plan, yet we have been blessed with 
+several children who have numerous food allergies. </p>
+<p>Going to the grocery store and trying to find foods that are safe for them is daunting at best. My aim is to make it easier for others 
+who are on the same journey.</p>
 
 <div class="main-block">
-    <form action="/">
+   <form action="/users/about" method="POST" class="form">
       <h1>Contact Us</h1>
       <div class="info">
         <input class="fname" type="text" name="firstname" placeholder="First name"> <br><br>
         <input class="lname" type="text" name="lastname" placeholder="Last name"> <br><br>
-        <input type="text" name="name" placeholder="Email"> <br><br>
+        <input type="text" name="emailaddress" placeholder="Email"> <br><br>
       </div>
-      <p>Message</p>
+      <p>Enter your comments below:</p>
       <div>
-        <textarea rows="4"></textarea>
+        <textarea rows="4" name="comment"></textarea>
       </div>
-      <button type="submit" href="/">Submit</button>
+
+      <button type="submit" value="comment">Submit</button>
+      <input id="button" type="reset" value="Reset" />
     </form>
   </div>
 
 
 </body>
+<div id="footer">
+<footer> &copy; Copyright 2021 Michelle Lovse, SafeEats </footer> 
+</div>
 </html>

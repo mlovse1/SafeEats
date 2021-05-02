@@ -1,0 +1,45 @@
+
+/*
+Will use if I get allergy icons added in.
+.allergyIcons {
+  width: 25px;
+  height: 25px;
+    margin: 0 auto 0 auto; 
+    display: inline-block;
+
+}
+*/
+
+
+.search{
+  background-color: #d66ba0;
+}
+
+
+.upc {
+  height: 150px;
+  width: 215px;
+  background-color: white;
+  /*border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  */
+  padding: 4px;
+/*
+  background-color: #f7797d; 
+  */
+  color: white; 
+  border: 2px solid black
+}
+
+.textarea{
+  margin: 2px;
+  padding:10px;
+  font-size: 20px; 
+  border: 2px solid black;
+  width: 215px; 
+}
+
+.button{
+  width: 100px;
+}

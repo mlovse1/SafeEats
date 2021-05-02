@@ -1,0 +1,21 @@
+.title #input{
+    background-color: #4e7ada; 
+    border: 2px solid black;
+}
+
+#resultPhrase{
+    color:white;
+
+}
+
+.results{
+    text-align: center;
+}
+
+img#food-img{
+    border: 2px solid black;
+     height: 150px; 
+     width: 200px;
+}
+
+
